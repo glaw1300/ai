@@ -1,5 +1,13 @@
 # @ai-sdk/google
 
+## 3.0.143
+
+### Patch Changes
+
+- f3c2cb3: skip streamed tool-call array indexes that leave a gap so a small response can't build a huge sparse array
+- Updated dependencies [f0dee4b]
+  - @ai-sdk/provider-utils@4.0.65
+
 ## 3.0.142
 
 ### Patch Changes
